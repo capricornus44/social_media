@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navigation-item {
+    @apply flex py-2 px-4 rounded text-lg hover:bg-blue-100
+}
+
+.auth-button {
+    @apply p-4 rounded-md font-bold text-white bg-blue-500 hover:bg-blue-700
+}
