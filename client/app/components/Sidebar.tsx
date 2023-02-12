@@ -11,8 +11,8 @@ const Sidebar = () => {
     <>
       {!isLoginPage ? (
         <aside className="h-fit p-4 rounded-md bg-white shadow-md shadow-gray-300">
-          <h2 className="text-2xl mb-5">Navigation</h2>
-          <Navigation />
+          <h2 className="mb-3 text-lg text-gray-400">Navigation</h2>
+          <Navigation currentPath={pathname} />
         </aside>
       ) : null}
     </>
